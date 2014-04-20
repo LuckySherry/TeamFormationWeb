@@ -1,0 +1,168 @@
+body { 
+  background-color: #c0c7cf;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:		large;
+  margin:           0px;
+  color:			#3a3a3c;
+}
+
+header {
+  background-color: #adbdbd;
+  margin: 10px 10px 0px 10px;
+  height:          auto;
+  
+}
+header h1 {
+	color:			#efe115;
+	font-size:		180%;
+	text-align:		center;
+}
+header h2 {
+	color:			#4a4a4c;
+	text-align:center;
+	font-size:		105%;
+	line-height:		150%;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+	width:		100%;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+section#LeftSide {
+	display: table-cell;
+	background-color: #93a6b5;
+	width: 20%;
+	vertical-align: top;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+/* added section#blog for blog */
+section#Main, section#Papers {
+  display: table-cell;
+  background:       #93a6b5;
+  font-size:        105%;
+  padding:          15px;
+  width:			60%;
+  vertical-align: top;
+}
+
+aside {
+  display: table-cell;
+  background:       #93a6b5;
+  font-size:        105%;
+  padding:          15px;
+  width:			20%;
+  vertical-align: top;
+}
+
+aside h1 {
+	line-height: 150%
+}
+aside h2 {
+	font-size:85%;
+	line-height:		samll;
+
+}
+aside h3 {
+	text-indent: 20px;
+	font-size:70%;
+}
+h3.people{
+	text-indent:0;
+}
+	
+
+footer {
+  color:            #3a3a3c;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #d7e4ed;
+}
+
+h2 { font-size: 110%; }
+
+h3 { font-size:100%;}
+article.news{
+	font-size: medium;
+}
+article.news h2{
+	font-size: 105%;
+}
+
+a:link,a:visited {
+	color: #b76666;
+	text-decoration: none;
+	border-bottom: thin dotted #b76666;
+}
+a:visited {
+	color: #b76666;
+	text-decoration: none;
+	border-bottom: thin dotted #b76666;
+}
+
+aside a:link, aside a:visited {
+	color: #675c47;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+nav {
+    background-color: #93a6b5;
+	margin: 10px 10px 0px 10px;
+	line-height:	150%;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #d7e4ed;
+	border-bottom: none;
+	font-weight: bold;
+
+
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+
+}
+nav ul li.selected {
+	background-color: #495164;
+}
+
+a.algorithm{
+	color:#4A4A4C;
+	font-style:oblique;
+	border-bottom:none;
+}
+
+a.dataset{
+	color: #06F;
+	text-decoration: underline;
+	border-bottom: none;
+}
+
+ul#InProgress{
+	list-style:none;
+	list-style-image:none;
+}
+	
